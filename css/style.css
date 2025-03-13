@@ -119,28 +119,14 @@ button:hover{
     font-size: 25px;     
    }
  
- .container  .number{
+ .container  .flex{
        font-size: 40px;
        text-align: center;
        display: flex;
        align-items: center;
        justify-content: center;
    }
-  .container .close{
-
-    font-size: 40px;
-       text-align: center;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-}
-.container .operator{
-     font-size: 40px;
-       text-align: center;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-} 
+  
  .container input{
     
     width: 370px;
@@ -148,3 +134,4 @@ button:hover{
 }  
    
 }
+
