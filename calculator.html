@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1><span>cal</span><span class="span">culator</span></h1>
+    <div class="container">
+<input type="text" id="inputDisplay" disabled>
+<button class="close" onclick="clearInput()">C</button>
+<button class="operator" onclick="calculator('+')">+</button>
+<button class="operator" onclick="calculator('*')">*</button>
+<button class="operator" onclick="calculator('/')">/</button>
+<button class="operator" onclick="calculator('-')">-</button> 
+<button class="operator" onclick="display()">=</button>
+   
+<button onclick="appendToDisplay(1)" class="number">1</button>
+<button onclick="appendToDisplay(2)" class="number">2</button>
+<button onclick="appendToDisplay(3)" class="number">3</button>
+<button onclick="appendToDisplay(4)"
+class="number">4</button>
+<button onclick="appendToDisplay(5)" class="number">5</button>
+<button onclick="appendToDisplay(6)" class="number">6</button>
+<button onclick="appendToDisplay(7)" class="number">7</button>
+<button onclick="appendToDisplay(8)" class="number">8</button>
+<button onclick="appendToDisplay(9)"
+class="number">9</button>
+<button onclick="appendToDisplay(0)" class="number">0</button>
+<button class="number" onclick="appendToDisplay('.')">.</button>
+<button class="number" onclick="percentage()">%</button>
+</div>
+    
+    <script src="Javascript.js"></script>
+</body>
+</html>
